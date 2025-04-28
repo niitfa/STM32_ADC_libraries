@@ -8,6 +8,15 @@
 #ifndef SRC_ADC_ADC_ADS1246_H_
 #define SRC_ADC_ADC_ADS1246_H_
 
+/* SPI CONF
+ * freq = 1 MHz (internal clock)
+ * CPOL = LOW
+ * CPHA = 2 (from 1 and 2)
+ *
+ * START pin can be tied to HIGH
+ * RESET# pin can be tied to HIGH
+ */
+
 #include "adc.h"
 #include "stm32f4xx_hal.h"
 
